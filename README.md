@@ -19,6 +19,5 @@ meson setup build
 meson compile -C build
 ```
 ```bash
-```
 sudo meson install -C build
 ```
