@@ -1,4 +1,4 @@
-# running-river
+# rrun
 
 A cli that detects whether a project is using CMake or Meson, then
 creates the build folder if needed, builds the executable, and runs it.
