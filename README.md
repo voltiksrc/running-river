@@ -1,6 +1,7 @@
 # running-river
 
-A project build and runner, it supports Meson and CMake for now.
+A cli that detects whether a project is using CMake or Meson, then
+creates the build folder if needed, builds the executable, and runs it.
 
 ## Usage
 ```bash
