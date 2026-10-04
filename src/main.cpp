@@ -39,7 +39,7 @@ std::vector<std::filesystem::path> find_executables() {
 int main() {
     auto current = std::filesystem::current_path();
 
-    std::cout << "Current directory: " << current << '\n';
+    std::cout << "Current directory: " << current.c_str() << '\n';
 
     if (std::filesystem::exists("meson.build")) {
         std::cout << "Meson project detected.\n";
